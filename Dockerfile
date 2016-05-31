@@ -1,7 +1,7 @@
 FROM debian:8
 
-ENV VERSION 1.2.1
-ENV WEB_VERSION 0.5.7.1
+ENV VERSION 1.4
+ENV WEB_VERSION 0.5.10
 
 RUN apt-get update && \
     apt-get install -y wget && \
